@@ -12,562 +12,725 @@
 </head>
 <body>
 <div class="container">
-    <header>
-    <div class="logo">Logo</div>
-
-    <div class="search-header">
-        <form class="form-search">
-            <button class="_icon-search1" type="submit"></button>
-            <label>
-                <input class="search-input" type="text" placeholder="Search Items, Fashion, Collection and Users">
-            </label>
+    <header class="header">
+    <div class="header__wrapper">
+        <a class="header__logo">Logo</a>
+        <form class="search-form">
+            <button class="search-form__btn _icon-search1" type="submit"></button>
+            <input class="search-form__input" type="text" placeholder="Search Items, Fashion, Collection and Users">
         </form>
-    </div>
-    <nav class="navigation-menu-desktop" role="navigation">
-        <ul>
-            <li class="margin-li font-header-item"><a href="#">Home</a></li>
-            <li class="margin-li font-header-item"><a href="#">Explore</a></li>
-            <li class="margin-li font-header-item"><a href="#">Personal Collection</a></li>
-            <li class="margin-li font-header-item"><a href="#">Drops</a></li>
-            <li class="margin-li font-header-item"><a href="#">More</a>
-                <ul class="sub-menu-more">
-                    <li><a class="font-header-item" href="#">Stats</a></li>
-                    <li><a class="font-header-item" href="#">Shows</a></li>
-                    <li><a class="font-header-item" href="#">About Us</a></li>
-                    <li><a class="font-header-item" href="#">Community</a></li>
-                    <li><a class="font-header-item" href="#">Creator Studio</a></li>
-                    <li><a class="font-header-item" href="#">Edit Profile</a></li>
-                    <li><a class="font-header-item" href="#">Setting</a></li>
+
+        <div class="header__menu menu">
+            <nav class="menu__body" role="navigation">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Home</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Explore</a>
+                        <button type="button" class="menu__arrow _icon-arrow-down"></button>
+                        <ul class="menu__sub-list">
+                            <li class="menu__sub-item">
+                                <a class="menu__sub-link" href="#">Trending</a>
+                                <a class="menu__sub-link" href="#">All Fashion NFTs</a>
+                                <a class="menu__sub-link" href="#">Art</a>
+                                <a class="menu__sub-link" href="#">Fashion</a>
+                                <a class="menu__sub-link" href="#">Creators</a>
+                                <a class="menu__sub-link" href="#">Brands</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Personal Collection</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Drops</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="" class="menu__link">More</a>
+                        <button type="button" class="menu__arrow _icon-arrow-down"></button>
+                        <ul class="menu__sub-list">
+                            <li class="menu__sub-item">
+                                <a class="menu__sub-link" href="#">Stats</a>
+                                <a class="menu__sub-link" href="#">Shows</a>
+                                <a class="menu__sub-link" href="#">About Us</a>
+                                <a class="menu__sub-link" href="#">Community</a>
+                                <a class="menu__sub-link" href="#">Creator Studio</a>
+                                <a class="menu__sub-link" href="#">Edit Profile</a>
+                                <a class="menu__sub-link" href="#">Setting</a>
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-        </ul>
-    </nav>
-    <div class="personal-menu-header">
-        <a class="_icon-bell" href=""></a>
-        <a class="personal-menu-message _icon-message" href=""></a>
-        <a class="personal-menu-wallet" href="">Wallet</a>
-        <a class="_icon-triangle" href=""></a>
-        <a class="personal-menu-avatar" href=""><img
-                src="../img/header/avatar.png" alt=""></a>
+            </nav>
+        </div>
+
+        <div class="header__actions actions-header">
+            <button type="button" class="icon-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <button class="mobile-btn _icon-search1" type="submit"></button>
+            <a class="actions-header__bell _icon-bell" href=""></a>
+            <a class="actions-header__message _icon-message" href=""></a>
+            <a class="actions-header__wallet" href="">Wallet</a>
+            <a class="actions-header__avatar-wrapper _icon-triangle" href="">
+                <img class="actions-header__avatar" src="../img/header/avatar.png" alt="">
+            </a>
+        </div>
     </div>
 </header>
-    <main>
-        <div class="main-button-wrapper">
-            <a class="main-button-total main-collection-button" href="">Main Collection</a>
-            <a class="main-button-total main-creators-market-button" href="">Creators Market</a>
-            <hr>
-        </div>
-        <div class="main-info-wrapper">
-            <div class="main-info-left">
-                <div class="main-block-header">
-                    Clothes are the Spirit of Fashion
-                </div>
-                <div class="main-block-body">
-                    Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc vulputate libero et velit.
-                </div>
-                <div class="main-block-button-wrapper">
-                    <a class="main-block-clothes-options main-block-explore-button" href="">Explore Now</a>
-                    <a class="main-block-clothes-options main-block-create-button" href="">Create</a>
-                </div>
-                <div class="main-block-info-site-wrapper">
-                    <div class="main-block-site-body">
-                        <div class="main-container-number-header">100+</div>
-                        <div class="main-container-number-body">Brands</div>
-                    </div>
-                    <div class="main-block-site-body">
-                        <div class="main-container-number-header">200k+</div>
-                        <div class="main-container-number-body">Fashion Designer</div>
-                    </div>
-                    <div class="main-block-site-body">
-                        <div class="main-container-number-header">60+</div>
-                        <div class="main-container-number-body">Fashion Shows</div>
-                    </div>
-                </div>
-            </div>
-            <div class="main-info-right">
-                <img class="margin-main-picture border-main-picture main-picture-first" src="img/main/img1.png"
-                     alt="">
-                <img class="margin-main-picture border-main-picture main-picture-second" src="img/main/img2.png"
-                     alt="">
-                <img class="margin-main-picture border-main-picture main-picture-third" src="img/main/img3.png"
-                     alt="">
-                <img class="margin-main-picture border-main-picture main-picture-four" src="img/main/img4.png"
-                     alt="">
-                <img class="border-main-picture main-picture-five" src="img/main/img6.png" alt="">
-                <img class="border-main-picture main-picture-six" src="img/main/img7.png" alt="">
-                <img class="border-main-picture main-picture-seven" src="img/main/img5.png" alt="">
-            </div>
-        </div>
-        <div class="logo-company-wrapper">
-            <img class="adidas-logo" src="img/main/adidas.png" alt="">
-            <img class="puma-logo" src="img/main/puma.png" alt="">
-            <img class="lacoste-logo" src="img/main/lacoste.png" alt="">
-        </div>
-    </main>
-    <section class="about-section">
-        <div class="about-header-wrapper">
-            <div class="about-header">About Us</div>
-            <div class="about-body">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.</div>
-        </div>
-        <div class="about-body-wrapper">
-            <img class="about-image" src="img/aboutUs/image1.jpg" alt="">
-            <div class="about-img-description-wrapper">
-                <div class="about-img-description-header">Fashion That Speaks</div>
-                <div class="about-img-description-body">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
-                    mattis tellus. Sed dignissim, metus nec fringila accumsan, risus sem solicitudin lacus,
-                    ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class
-                    aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent
-                    auctor purus luctus enim egestas, ac scelerisque ante pulvinar.
-                </div>
-                <a class="about-button" href="">Show more</a>
-            </div>
-        </div>
-    </section>
 
-    <section class="collection-section">
-        <div class="collection-header-wrapper">
-            <div class="collection-header">All Collection</div>
-            <div class="collection-body">Worlds First Layer 2 Fashion Marketplace</div>
-        </div>
-        <div class="collection-img-wrapper">
-            <div class="collection-img">
-                <img class="collection-img-body" src="img/collection/image1.png" alt="">
-                <div class="img-text">No Gas Fees</div>
-            </div>
-            <div class="collection-img">
-                <img class="collection-img-body" src="img/collection/image2.png" alt="">
-                <div class="img-text">Carbon Netural NFTs</div>
-            </div>
-            <div class="collection-img">
-                <img class="collection-img-body" src="img/collection/image3.png" alt="">
-                <div class="img-text">Fast And Easy Transactions</div>
-            </div>
-        </div>
-        <div class="collection-body-wrapper">
-            <div class="collection-slider-button-wrapper">
-                <a class="collection-slider-button all-collection-bottom-background" href="">All Collections</a>
-                <a class="collection-slider-button collection-bottom-background" href="">Verified Brands</a>
-                <a class="collection-slider-button collection-bottom-background" href="">Verified Artists</a>
-                <a class="collection-slider-button collection-bottom-background" href="">New Drops</a>
-                <a class="collection-slider-button collection-bottom-background" href="">Live Shows</a>
-            </div>
-        </div>
-        <div class="collection-images-wrapper">
-            <div class="collection-image-wrapper">
-                <img class="collection-main-image" src="img/collection/clothes/image1.jpg" alt="">
-                <div class="collection-image-body">
-                    <div class="collection-image-description">
-                        <div class="collection-description-left">
-                            <div class="collection-nick">@Johny</div>
-                            <div class="collection-title">Lorem Ipsum</div>
-                        </div>
-                        <div class="collection-description-right">
-                            <div class="collection-right-title">Current Bid</div>
-                            <div class="collection-price">0.005 ETH</div>
-                        </div>
-                    </div>
-                    <div class="collection-image-button-wrapper">
-                        <a class="_icon-health" href=""></a>
-                        <a class="collection-image-buy-button" href="">Buy Now</a>
-                    </div>
+    <div class="context__wrapper">
+        <main class="main">
+            <div class="main__content-btn content-btn">
+                <div class="content-btn__body">
+                    <a class="content-btn__btn collection-btn" href="">Main Collection</a>
+                    <a class="content-btn__btn market-btn" href="">Creators Market</a>
                 </div>
+                <hr class="content-btn__hr">
             </div>
+            <div class="main__content-info content-info">
+                <div class="content-info__body">
+                    <div class="content-info__body-container">
+                        <div class="content-info__header">
+                            Clothes are the Spirit of Fashion
+                        </div>
+                        <div class="content-info__description">
+                            Lorem ipsum dolor sit amet, consectetur adipscing elit. Nunc vulputate libero et velit.
+                        </div>
+                        <div class="content-info__btn-wrapper">
+                            <a class="content-info__btn main-explore-btn" href="">Explore Now</a>
+                            <a class="content-info__btn main-create-btn" href="">Create</a>
+                        </div>
+                    </div>
 
-            <div class="collection-image-wrapper">
-                <img class="collection-main-image" src="img/collection/clothes/image2.jpg" alt="">
-                <div class="collection-image-body">
-                    <div class="collection-image-description">
-                        <div class="collection-description-left">
-                            <div class="collection-nick">@Johny</div>
-                            <div class="collection-title">Lorem Ipsum</div>
+                    <div class="content-info__statistic info-statistic">
+                        <div class="info-statistic__item">
+                            <div class="info-statistic__value">100+</div>
+                            <div class="info-statistic__type">Brands</div>
                         </div>
-                        <div class="collection-description-right">
-                            <div class="collection-right-title">Current Bid</div>
-                            <div class="collection-price">0.005 ETH</div>
+                        <div class="info-statistic__item">
+                            <div class="info-statistic__value">200k+</div>
+                            <div class="info-statistic__type">Fashion Designer</div>
+                        </div>
+                        <div class="info-statistic__item">
+                            <div class="info-statistic__value">60+</div>
+                            <div class="info-statistic__type">Fashion Shows</div>
                         </div>
                     </div>
-                    <div class="collection-image-button-wrapper">
-                        <a class="_icon-health" href=""></a>
-                        <a class="collection-image-buy-button" href="">Buy Now</a>
+                </div>
+                <div class="content-info__img">
+                    <div class="content-info__img-wrapper">
+                        <div class="content-info__img-1 content-info__img-main">
+                            <img class="content-info__img-size" src="img/main/img1.png"
+                                 alt="">
+                        </div>
+                        <div class="content-info__img-2 content-info__img-main">
+                            <img class="content-info__img-size" src="img/main/img2.png"
+                                 alt="">
+                        </div>
+                        <div class="content-info__img-3 content-info__img-main">
+                            <img class="content-info__img-size" src="img/main/img3.png"
+                                 alt="">
+                        </div>
+                        <div class="content-info__img-4 content-info__img-main">
+                            <img class="content-info__img-size" src="img/main/img4.png"
+                                 alt="">
+                        </div>
+                        <div class="content-info__img-5 content-info__img-main">
+                            <img class="content-info__img-size" src="img/main/img6.png" alt="">
+                        </div>
+                        <div class="content-info__img-6 content-info__img-main">
+                            <img class="content-info__img-size" src="img/main/img7.png" alt="">
+                        </div>
+                    </div>
+                    <div class="content-info__img-7 content-info__img-main">
+                        <img class="content-info__img-size" src="img/main/img5.png" alt="">
                     </div>
                 </div>
             </div>
-
-            <div class="collection-image-wrapper">
-                <img class="collection-main-image" src="img/collection/clothes/image3.jpg" alt="">
-                <div class="collection-image-body">
-                    <div class="collection-image-description">
-                        <div class="collection-description-left">
-                            <div class="collection-nick">@Johny</div>
-                            <div class="collection-title">Lorem Ipsum</div>
-                        </div>
-                        <div class="collection-description-right">
-                            <div class="collection-right-title">Current Bid</div>
-                            <div class="collection-price">0.005 ETH</div>
-                        </div>
+            <div class="main__logo-company">
+                <img class="adidas-logo" src="img/main/adidas.png" alt="">
+                <img class="puma-logo" src="img/main/puma.png" alt="">
+                <img class="lacoste-logo" src="img/main/lacoste.png" alt="">
+            </div>
+        </main>
+        <section class="about">
+            <div class="about__wrapper">
+                <div class="about__main main-about">
+                    <div class="main-about__header">About Us</div>
+                    <div class="main-about__body">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.</div>
+                </div>
+                <div class="about__body body-about">
+                    <div class="body-about__img-wrapper">
+                        <img class="body-about__img" src="img/aboutUs/image1.jpg" alt="">
                     </div>
-                    <div class="collection-image-button-wrapper">
-                        <a class="_icon-health" href=""></a>
-                        <a class="collection-image-buy-button" href="">Buy Now</a>
+                    <div class="body-about__content-wrapper">
+                        <div class="body-about__content-header">Fashion That Speaks</div>
+                        <div class="body-about__content-body">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum
+                            est a,
+                            mattis tellus. Sed dignissim, metus nec fringila accumsan, risus sem solicitudin lacus,
+                            ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.
+                            Class
+                            aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                            Praesent
+                            auctor purus luctus enim egestas, ac scelerisque ante pulvinar.
+                        </div>
+                        <a class="body-about__content-btn" href="">Show more</a>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="collection-image-wrapper">
-                <img class="collection-main-image" src="img/collection/clothes/image4.jpg" alt="">
-                <div class="collection-image-body">
-                    <div class="collection-image-description">
-                        <div class="collection-description-left">
-                            <div class="collection-nick">@Johny</div>
-                            <div class="collection-title">Lorem Ipsum</div>
-                        </div>
-                        <div class="collection-description-right">
-                            <div class="collection-right-title">Current Bid</div>
-                            <div class="collection-price">0.005 ETH</div>
-                        </div>
+        <section class="collection">
+            <div class="collection__header">
+                <div class="collection-header">All Collection</div>
+                <div class="collection-body">Worlds First Layer 2 Fashion Marketplace</div>
+            </div>
+            <div class="collection__body collection-context">
+                <div class="collection-context__item">
+                    <div class="collection-context__img-wrapper">
+                        <img class="collection-context__img" src="img/collection/image1.png" alt="">
                     </div>
-                    <div class="collection-image-button-wrapper">
-                        <a class="_icon-health" href=""></a>
-                        <a class="collection-image-buy-button" href="">Buy Now</a>
+                    <div class="collection-context__description">No Gas Fees</div>
+                </div>
+                <div class="collection-context__item">
+                    <div class="collection-context__img-wrapper">
+                        <img class="collection-context__img" src="img/collection/image2.png" alt="">
                     </div>
+                    <div class="collection-context__description">Carbon Netural NFTs</div>
+                </div>
+                <div class="collection-context__item">
+                    <div class="collection-context__img-wrapper">
+                        <img class="collection-context__img" src="img/collection/image3.png" alt="">
+                    </div>
+                    <div class="collection-context__description">Fast And Easy Transactions</div>
                 </div>
             </div>
-
-            <div class="collection-image-wrapper">
-                <img class="collection-main-image" src="img/collection/clothes/image5.jpg" alt="">
-                <div class="collection-image-body">
-                    <div class="collection-image-description">
-                        <div class="collection-description-left">
-                            <div class="collection-nick">@Johny</div>
-                            <div class="collection-title">Lorem Ipsum</div>
-                        </div>
-                        <div class="collection-description-right">
-                            <div class="collection-right-title">Current Bid</div>
-                            <div class="collection-price">0.005 ETH</div>
-                        </div>
-                    </div>
-                    <div class="collection-image-button-wrapper">
-                        <a class="_icon-health" href=""></a>
-                        <a class="collection-image-buy-button" href="">Buy Now</a>
-                    </div>
+            <div class="collection__btn-wrapper collection-filter">
+                <div class="collection-filter__btn-wrapper">
+                    <a class="collection-filter__btn collection-btn-active" href="">All Collections</a>
+                    <a class="collection-filter__btn collection-bottom-background" href="">Verified Brands</a>
+                    <a class="collection-filter__btn collection-bottom-background" href="">Verified Artists</a>
+                    <a class="collection-filter__btn collection-bottom-background" href="">New Drops</a>
+                    <a class="collection-filter__btn collection-bottom-background" href="">Live Shows</a>
                 </div>
             </div>
-
-            <div class="collection-image-wrapper">
-                <img class="collection-main-image" src="img/collection/clothes/image6.jpg" alt="">
-                <div class="collection-image-body">
-                    <div class="collection-image-description">
-                        <div class="collection-description-left">
-                            <div class="collection-nick">@Johny</div>
-                            <div class="collection-title">Lorem Ipsum</div>
-                        </div>
-                        <div class="collection-description-right">
-                            <div class="collection-right-title">Current Bid</div>
-                            <div class="collection-price">0.005 ETH</div>
-                        </div>
-                    </div>
-                    <div class="collection-image-button-wrapper">
-                        <a class="_icon-health" href=""></a>
-                        <a class="collection-image-buy-button" href="">Buy Now</a>
-                    </div>
-                </div>
+            <div class="collection__img-wrapper">
+                <div class="collection-card-item-wrapper">
+    <div class="collection-card-item-img-wrapper">
+        <img class="card-buy-image" src="img/collection/clothes/image1.jpg" alt="">
+    </div>
+    <div class="collection-card-item-body">
+        <div class="card-buy-description">
+            <div class="card-buy-name">
+                <div class="card-buy-nick">@Johny</div>
+                <div class="card-buy-surname">Lorem Ipsum</div>
             </div>
-
-            <div class="collection-image-wrapper">
-                <img class="collection-main-image" src="img/collection/clothes/image7.jpg" alt="">
-                <div class="collection-image-body">
-                    <div class="collection-image-description">
-                        <div class="collection-description-left">
-                            <div class="collection-nick">@Johny</div>
-                            <div class="collection-title">Lorem Ipsum</div>
-                        </div>
-                        <div class="collection-description-right">
-                            <div class="collection-right-title">Current Bid</div>
-                            <div class="collection-price">0.005 ETH</div>
-                        </div>
-                    </div>
-                    <div class="collection-image-button-wrapper">
-                        <a class="_icon-health" href=""></a>
-                        <a class="collection-image-buy-button" href="">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="collection-image-wrapper">
-                <img class="collection-main-image" src="img/collection/clothes/image8.jpg" alt="">
-                <div class="collection-image-body">
-                    <div class="collection-image-description">
-                        <div class="collection-description-left">
-                            <div class="collection-nick">@Johny</div>
-                            <div class="collection-title">Lorem Ipsum</div>
-                        </div>
-                        <div class="collection-description-right">
-                            <div class="collection-right-title">Current Bid</div>
-                            <div class="collection-price">0.005 ETH</div>
-                        </div>
-                    </div>
-                    <div class="collection-image-button-wrapper">
-                        <a class="_icon-health" href=""></a>
-                        <a class="collection-image-buy-button" href="">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="collection-image-wrapper">
-                <img class="collection-main-image" src="img/collection/clothes/image9.jpg" alt="">
-                <div class="collection-image-body">
-                    <div class="collection-image-description">
-                        <div class="collection-description-left">
-                            <div class="collection-nick">@Johny</div>
-                            <div class="collection-title">Lorem Ipsum</div>
-                        </div>
-                        <div class="collection-description-right">
-                            <div class="collection-right-title">Current Bid</div>
-                            <div class="collection-price">0.005 ETH</div>
-                        </div>
-                    </div>
-                    <div class="collection-image-button-wrapper">
-                        <a class="_icon-health" href=""></a>
-                        <a class="collection-image-buy-button" href="">Buy Now</a>
-                    </div>
-                </div>
+            <div class="card-buy-price-wrapper">
+                <div class="card-buy-type-price">Current Bid</div>
+                <div class="card-buy-price">+ 0.005 ETH</div>
             </div>
         </div>
-    </section>
-
-    <section class="trending-section">
-        <div class="trending-section-header">
-            <div class="trending-header">New & Trending</div>
-            <div class="trending-description">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.</div>
+        <div class="card-buy-button-wrapper">
+            <a class="_icon-health" href=""></a>
+            <a class="card-buy-button" href="">Buy Now</a>
         </div>
-        <div class="collection-images-wrapper">
-            <div class="collection-image-wrapper">
-                <img class="collection-main-image" src="img/trending/image1.jpg" alt="">
-                <div class="collection-image-body">
-                    <div class="collection-image-description">
-                        <div class="collection-description-left">
-                            <div class="collection-nick">@Johny</div>
-                            <div class="collection-title">Lorem Ipsum</div>
+    </div>
+</div>
+
+                <div class="collection-card-item-wrapper">
+    <div class="collection-card-item-img-wrapper">
+        <img class="card-buy-image" src="img/collection/clothes/image2.jpg" alt="">
+    </div>
+    <div class="collection-card-item-body">
+        <div class="card-buy-description">
+            <div class="card-buy-name">
+                <div class="card-buy-nick">@Johny</div>
+                <div class="card-buy-surname">Lorem Ipsum</div>
+            </div>
+            <div class="card-buy-price-wrapper">
+                <div class="card-buy-type-price">Current Bid</div>
+                <div class="card-buy-price">+ 0.005 ETH</div>
+            </div>
+        </div>
+        <div class="card-buy-button-wrapper">
+            <a class="_icon-health" href=""></a>
+            <a class="card-buy-button" href="">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+                <div class="collection-card-item-wrapper">
+    <div class="collection-card-item-img-wrapper">
+        <img class="card-buy-image" src="img/collection/clothes/image3.jpg" alt="">
+    </div>
+    <div class="collection-card-item-body">
+        <div class="card-buy-description">
+            <div class="card-buy-name">
+                <div class="card-buy-nick">@Johny</div>
+                <div class="card-buy-surname">Lorem Ipsum</div>
+            </div>
+            <div class="card-buy-price-wrapper">
+                <div class="card-buy-type-price">Current Bid</div>
+                <div class="card-buy-price">+ 0.005 ETH</div>
+            </div>
+        </div>
+        <div class="card-buy-button-wrapper">
+            <a class="_icon-health" href=""></a>
+            <a class="card-buy-button" href="">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+                <div class="collection-card-item-wrapper">
+    <div class="collection-card-item-img-wrapper">
+        <img class="card-buy-image" src="img/collection/clothes/image4.jpg" alt="">
+    </div>
+    <div class="collection-card-item-body">
+        <div class="card-buy-description">
+            <div class="card-buy-name">
+                <div class="card-buy-nick">@Johny</div>
+                <div class="card-buy-surname">Lorem Ipsum</div>
+            </div>
+            <div class="card-buy-price-wrapper">
+                <div class="card-buy-type-price">Current Bid</div>
+                <div class="card-buy-price">+ 0.005 ETH</div>
+            </div>
+        </div>
+        <div class="card-buy-button-wrapper">
+            <a class="_icon-health" href=""></a>
+            <a class="card-buy-button" href="">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+                <div class="collection-card-item-wrapper">
+    <div class="collection-card-item-img-wrapper">
+        <img class="card-buy-image" src="img/collection/clothes/image5.jpg" alt="">
+    </div>
+    <div class="collection-card-item-body">
+        <div class="card-buy-description">
+            <div class="card-buy-name">
+                <div class="card-buy-nick">@Johny</div>
+                <div class="card-buy-surname">Lorem Ipsum</div>
+            </div>
+            <div class="card-buy-price-wrapper">
+                <div class="card-buy-type-price">Current Bid</div>
+                <div class="card-buy-price">+ 0.005 ETH</div>
+            </div>
+        </div>
+        <div class="card-buy-button-wrapper">
+            <a class="_icon-health" href=""></a>
+            <a class="card-buy-button" href="">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+                <div class="collection-card-item-wrapper">
+    <div class="collection-card-item-img-wrapper">
+        <img class="card-buy-image" src="img/collection/clothes/image6.jpg" alt="">
+    </div>
+    <div class="collection-card-item-body">
+        <div class="card-buy-description">
+            <div class="card-buy-name">
+                <div class="card-buy-nick">@Johny</div>
+                <div class="card-buy-surname">Lorem Ipsum</div>
+            </div>
+            <div class="card-buy-price-wrapper">
+                <div class="card-buy-type-price">Current Bid</div>
+                <div class="card-buy-price">+ 0.005 ETH</div>
+            </div>
+        </div>
+        <div class="card-buy-button-wrapper">
+            <a class="_icon-health" href=""></a>
+            <a class="card-buy-button" href="">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+                <div class="collection-card-item-wrapper">
+    <div class="collection-card-item-img-wrapper">
+        <img class="card-buy-image" src="img/collection/clothes/image7.jpg" alt="">
+    </div>
+    <div class="collection-card-item-body">
+        <div class="card-buy-description">
+            <div class="card-buy-name">
+                <div class="card-buy-nick">@Johny</div>
+                <div class="card-buy-surname">Lorem Ipsum</div>
+            </div>
+            <div class="card-buy-price-wrapper">
+                <div class="card-buy-type-price">Current Bid</div>
+                <div class="card-buy-price">+ 0.005 ETH</div>
+            </div>
+        </div>
+        <div class="card-buy-button-wrapper">
+            <a class="_icon-health" href=""></a>
+            <a class="card-buy-button" href="">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+                <div class="collection-card-item-wrapper">
+    <div class="collection-card-item-img-wrapper">
+        <img class="card-buy-image" src="img/collection/clothes/image8.jpg" alt="">
+    </div>
+    <div class="collection-card-item-body">
+        <div class="card-buy-description">
+            <div class="card-buy-name">
+                <div class="card-buy-nick">@Johny</div>
+                <div class="card-buy-surname">Lorem Ipsum</div>
+            </div>
+            <div class="card-buy-price-wrapper">
+                <div class="card-buy-type-price">Current Bid</div>
+                <div class="card-buy-price">+ 0.005 ETH</div>
+            </div>
+        </div>
+        <div class="card-buy-button-wrapper">
+            <a class="_icon-health" href=""></a>
+            <a class="card-buy-button" href="">Buy Now</a>
+        </div>
+    </div>
+</div>
+
+                <div class="collection-card-item-wrapper">
+    <div class="collection-card-item-img-wrapper">
+        <img class="card-buy-image" src="img/collection/clothes/image9.jpg" alt="">
+    </div>
+    <div class="collection-card-item-body">
+        <div class="card-buy-description">
+            <div class="card-buy-name">
+                <div class="card-buy-nick">@Johny</div>
+                <div class="card-buy-surname">Lorem Ipsum</div>
+            </div>
+            <div class="card-buy-price-wrapper">
+                <div class="card-buy-type-price">Current Bid</div>
+                <div class="card-buy-price">+ 0.005 ETH</div>
+            </div>
+        </div>
+        <div class="card-buy-button-wrapper">
+            <a class="_icon-health" href=""></a>
+            <a class="card-buy-button" href="">Buy Now</a>
+        </div>
+    </div>
+</div>
+            </div>
+        </section>
+
+        <section class="trending">
+            <div class="trending__header trending-main">
+                <div class="trending-main__header">New & Trending</div>
+                <div class="trending-main__body">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.</div>
+            </div>
+            <div class="trending__body trending-body">
+                <div class="collection-card-item-wrapper">
+    <div class="collection-card-item-img-wrapper">
+        <img class="card-buy-image" src="img/trending/image1.jpg" alt="">
+    </div>
+    <div class="collection-card-item-body">
+        <div class="card-buy-description">
+            <div class="card-buy-name">
+                <div class="card-buy-nick">@Johny</div>
+                <div class="card-buy-surname">Lorem Ipsum</div>
+            </div>
+            <div class="card-buy-price-wrapper">
+                <div class="card-buy-type-price">Current Bid</div>
+                <div class="card-buy-price">+ 0.005 ETH</div>
+            </div>
+        </div>
+        <div class="card-buy-button-wrapper">
+            <a class="_icon-health" href=""></a>
+            <a class="card-buy-button" href="">Buy Now</a>
+        </div>
+    </div>
+</div>
+                <div class="collection-card-item-wrapper">
+    <div class="collection-card-item-img-wrapper">
+        <img class="card-buy-image" src="img/trending/image2.jpg" alt="">
+    </div>
+    <div class="collection-card-item-body">
+        <div class="card-buy-description">
+            <div class="card-buy-name">
+                <div class="card-buy-nick">@Johny</div>
+                <div class="card-buy-surname">Lorem Ipsum</div>
+            </div>
+            <div class="card-buy-price-wrapper">
+                <div class="card-buy-type-price">Current Bid</div>
+                <div class="card-buy-price">+ 0.005 ETH</div>
+            </div>
+        </div>
+        <div class="card-buy-button-wrapper">
+            <a class="_icon-health" href=""></a>
+            <a class="card-buy-button" href="">Buy Now</a>
+        </div>
+    </div>
+</div>
+                <div class="collection-card-item-wrapper">
+    <div class="collection-card-item-img-wrapper">
+        <img class="card-buy-image" src="img/trending/image3.jpg" alt="">
+    </div>
+    <div class="collection-card-item-body">
+        <div class="card-buy-description">
+            <div class="card-buy-name">
+                <div class="card-buy-nick">@Johny</div>
+                <div class="card-buy-surname">Lorem Ipsum</div>
+            </div>
+            <div class="card-buy-price-wrapper">
+                <div class="card-buy-type-price">Current Bid</div>
+                <div class="card-buy-price">+ 0.005 ETH</div>
+            </div>
+        </div>
+        <div class="card-buy-button-wrapper">
+            <a class="_icon-health" href=""></a>
+            <a class="card-buy-button" href="">Buy Now</a>
+        </div>
+    </div>
+</div>
+            </div>
+        </section>
+
+        <section class="upcoming-creator">
+            <div class="upcoming-creator__header upcoming-header">
+                <div class="upcoming-header__header">Upcoming Creators</div>
+                <div class="upcoming-header__body">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.</div>
+            </div>
+
+            <div class="upcoming-creator__body">
+                <div class="upcoming-card-wrapper">
+    <div class="upcoming-card-item-img-wrapper">
+        <img class="card-follow-img" src="img/upcoming-creators/image1.jpg" alt="">
+    </div>
+    <div class="upcoming-card-item-body">
+        <div class="card-follow-avatar-wrapper">
+            <img class="card-follow-avatar" src="img/upcoming-creators/avatar/photo1.jpg" alt="">
+        </div>
+        <div class="card-follow-nick-wrapper">
+            <div class="card-follow-nick">John Wick</div>
+            <div class="card0follow-nick-img"></div>
+        </div>
+        <div class="card-follow-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <a class="card-follow-button" href="">+ Follow</a>
+    </div>
+</div>
+
+                <div class="upcoming-card-wrapper">
+    <div class="upcoming-card-item-img-wrapper">
+        <img class="card-follow-img" src="img/upcoming-creators/image2.jpg" alt="">
+    </div>
+    <div class="upcoming-card-item-body">
+        <div class="card-follow-avatar-wrapper">
+            <img class="card-follow-avatar" src="img/upcoming-creators/avatar/photo2.jpg" alt="">
+        </div>
+        <div class="card-follow-nick-wrapper">
+            <div class="card-follow-nick">John Wick</div>
+            <div class="card0follow-nick-img"></div>
+        </div>
+        <div class="card-follow-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <a class="card-follow-button" href="">+ Follow</a>
+    </div>
+</div>
+
+                <div class="upcoming-card-wrapper">
+    <div class="upcoming-card-item-img-wrapper">
+        <img class="card-follow-img" src="img/upcoming-creators/image3.jpg" alt="">
+    </div>
+    <div class="upcoming-card-item-body">
+        <div class="card-follow-avatar-wrapper">
+            <img class="card-follow-avatar" src="img/upcoming-creators/avatar/photo3.jpg" alt="">
+        </div>
+        <div class="card-follow-nick-wrapper">
+            <div class="card-follow-nick">John Wick</div>
+            <div class="card0follow-nick-img"></div>
+        </div>
+        <div class="card-follow-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <a class="card-follow-button" href="">+ Follow</a>
+    </div>
+</div>
+            </div>
+        </section>
+
+        <section class="upcoming-creator">
+            <div class="upcoming-creator__header upcoming-header">
+                <div class="upcoming-header__header">Upcoming Brands</div>
+                <div class="upcoming-header__body">Lorem ipsum dolor sit amet, copnsectetur <br> adipsicing elit.</div>
+            </div>
+
+            <div class="upcoming-creator__body">
+                <div class="upcoming-card-wrapper">
+    <div class="upcoming-card-item-img-wrapper">
+        <img class="card-follow-img" src="img/upcoming-brands/image1.jpg" alt="">
+    </div>
+    <div class="upcoming-card-item-body">
+        <div class="card-follow-avatar-wrapper">
+            <img class="card-follow-avatar" src="img/upcoming-brands/avatar/photo1.jpg" alt="">
+        </div>
+        <div class="card-follow-nick-wrapper">
+            <div class="card-follow-nick">Adiddas</div>
+            <div class="card0follow-nick-img"></div>
+        </div>
+        <div class="card-follow-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <a class="card-follow-button" href="">+ Follow</a>
+    </div>
+</div>
+
+                <div class="upcoming-card-wrapper">
+    <div class="upcoming-card-item-img-wrapper">
+        <img class="card-follow-img" src="img/upcoming-brands/image2.jpg" alt="">
+    </div>
+    <div class="upcoming-card-item-body">
+        <div class="card-follow-avatar-wrapper">
+            <img class="card-follow-avatar" src="img/upcoming-brands/avatar/photo2.jpg" alt="">
+        </div>
+        <div class="card-follow-nick-wrapper">
+            <div class="card-follow-nick">Nike</div>
+            <div class="card0follow-nick-img"></div>
+        </div>
+        <div class="card-follow-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <a class="card-follow-button" href="">+ Follow</a>
+    </div>
+</div>
+
+                <div class="upcoming-card-wrapper">
+    <div class="upcoming-card-item-img-wrapper">
+        <img class="card-follow-img" src="img/upcoming-brands/image3.jpg" alt="">
+    </div>
+    <div class="upcoming-card-item-body">
+        <div class="card-follow-avatar-wrapper">
+            <img class="card-follow-avatar" src="img/upcoming-brands/avatar/photo3.jpg" alt="">
+        </div>
+        <div class="card-follow-nick-wrapper">
+            <div class="card-follow-nick">Lacoste</div>
+            <div class="card0follow-nick-img"></div>
+        </div>
+        <div class="card-follow-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <a class="card-follow-button" href="">+ Follow</a>
+    </div>
+</div>
+            </div>
+        </section>
+
+        <section class="freaquently-question">
+            <div class="freaquently-question__header freaquently-question-header">
+                <div class="freaquently-question-header__header">Freauently Asked <br> Question</div>
+                <div class="freaquently-question-header__body">Wanna Ask Something?</div>
+            </div>
+            <div class="freaquently-question__body">
+                <div class="freaquently-section-body-card-wrapper">
+                    <form class="form-question">
+                            <input class="question-input" type="text" placeholder="Lorem ipsum ipsum?">
+                        <button class="question-button" type="submit">+</button>
+                    </form>
+                </div>
+                <div class="freaquently-section-body-card-wrapper">
+                    <form class="form-question">
+                        <label>
+                            <input class="question-input" type="text" placeholder="Lorem ipsum ipsum?">
+                        </label>
+                        <button class="question-button" type="submit">+</button>
+                    </form>
+                </div>
+                <div class="freaquently-section-body-card-wrapper">
+                    <form class="form-question">
+                        <label>
+                            <input class="question-input" type="text" placeholder="Lorem ipsum ipsum?">
+                        </label>
+                        <button class="question-button" type="submit">+</button>
+                    </form>
+                </div>
+                <div class="freaquently-section-body-card-wrapper">
+                    <form class="form-question">
+                        <label>
+                            <input class="question-input" type="text" placeholder="Lorem ipsum ipsum?">
+                        </label>
+                        <button class="question-button" type="submit">+</button>
+                    </form>
+                </div>
+                <div class="freaquently-section-body-card-wrapper">
+                    <form class="form-question">
+                        <label>
+                            <input class="question-input" type="text" placeholder="Lorem ipsum ipsum?">
+                        </label>
+                        <button class="question-button" type="submit">+</button>
+                    </form>
+                </div>
+                <div class="freaquently-section-body-card-wrapper">
+                    <form class="form-question">
+                        <label>
+                            <input class="question-input" type="text" placeholder="Lorem ipsum ipsum?">
+                        </label>
+                        <button class="question-button" type="submit">+</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="highest-quality-section">
+            <div class="highest-quality-wrapper">
+                <div class="highest-quality-header">Highest Quality <br> Collection</div>
+                <a class="highest-quality-button" href="">Get Started</a>
+            </div>
+        </section>
+        <section class="footer-section">
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__body">
+                <div class="footer__logo-wrapper">
+                    <a class="footer__logo" href="">LOGO</a>
+                    <div class="footer__logo-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Scelerisque
+                        donec non pellentesque ut.
+                    </div>
+                </div>
+                <div class="footer__menu menu-footer">
+                    <div class="menu-footer__column">
+                        <div class="menu-footer__btn-wrapper">
+                            <button type="button" class="menu-footer__title _footer-title">About</button>
+                            <button type="button" class="menu-footer__arrow _icon-arrow-down"></button>
                         </div>
-                        <div class="collection-description-right">
-                            <div class="collection-right-title">Current Bid</div>
-                            <div class="collection-price">0.005 ETH</div>
+                        <ul class="menu-footer__list">
+                            <li><a href="" class="menu-footer__link">Product</a></li>
+                            <li><a href="" class="menu-footer__link">Resource</a></li>
+                            <li><a href="" class="menu-footer__link">Team & Condition</a></li>
+                            <li><a href="" class="menu-footer__link">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-footer__column">
+                        <div class="menu-footer__btn-wrapper">
+                            <button type="button" class="menu-footer__title _footer-title">Company</button>
+                            <button type="button" class="menu-footer__arrow _icon-arrow-down"></button>
                         </div>
+                        <ul class="menu-footer__list">
+                            <li><a href="" class="menu-footer__link">Our Team</a></li>
+                            <li><a href="" class="menu-footer__link">Partner With Us</a></li>
+                            <li><a href="" class="menu-footer__link">Privacy & Policy</a></li>
+                            <li><a href="" class="menu-footer__link">Features</a></li>
+                        </ul>
                     </div>
-                    <div class="collection-image-button-wrapper">
-                        <a class="_icon-health" href=""></a>
-                        <a class="collection-image-buy-button" href="">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="collection-image-wrapper">
-                <img class="collection-main-image" src="img/trending/image2.jpg" alt="">
-                <div class="collection-image-body">
-                    <div class="collection-image-description">
-                        <div class="collection-description-left">
-                            <div class="collection-nick">@Johny</div>
-                            <div class="collection-title">Lorem Ipsum</div>
+                    <div class="menu-footer__column">
+                        <div class="menu-footer__btn-wrapper">
+                            <button type="button" class="menu-footer__title _footer-title">Contact</button>
+                            <button type="button" class="menu-footer__arrow _icon-arrow-down"></button>
                         </div>
-                        <div class="collection-description-right">
-                            <div class="collection-right-title">Current Bid</div>
-                            <div class="collection-price">0.005 ETH</div>
-                        </div>
-                    </div>
-                    <div class="collection-image-button-wrapper">
-                        <a class="_icon-health" href=""></a>
-                        <a class="collection-image-buy-button" href="">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="collection-image-wrapper">
-                <img class="collection-main-image" src="img/trending/image3.jpg" alt="">
-                <div class="collection-image-body">
-                    <div class="collection-image-description">
-                        <div class="collection-description-left">
-                            <div class="collection-nick">@Johny</div>
-                            <div class="collection-title">Lorem Ipsum</div>
-                        </div>
-                        <div class="collection-description-right">
-                            <div class="collection-right-title">Current Bid</div>
-                            <div class="collection-price">0.005 ETH</div>
-                        </div>
-                    </div>
-                    <div class="collection-image-button-wrapper">
-                        <a class="_icon-health" href=""></a>
-                        <a class="collection-image-buy-button" href="">Buy Now</a>
+                        <ul class="menu-footer__list">
+                            <li><a href="tel:+012 3456789" class="menu-footer__link">+012 3456789</a></li>
+                            <li><a href="email:adorableprogrammer@gmail.com" target="_blank" class="menu-footer__link">adorableprogrammer@gmail.com</a>
+                            </li>
+                            <div class="menu-footer__social-wrapper">
+                                <li><a href="https://www.youtube.com/" target="_blank" class="menu-footer__social-youtube _icon-youtube"></a></li>
+                                <li><a href="https://discord.com/" target="_blank" class="menu-footer__social-discord _icon-discord"></a></li>
+                                <li><a href="https://instagram.com/" target="_blank" class="menu-footer__social-inst _icon-instagram"></a></li>
+                            </div>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-    <section class="upcoming-section">
-        <div class="trending-section-header">
-            <div class="trending-header">Upcoming Creators</div>
-            <div class="trending-description">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit.</div>
-        </div>
-
-        <div class="upcoming-section-body">
-            <div class="upcoming-section-card-wrapper">
-                <img class="upcoming-section-img" src="img/upcoming-creators/image1.jpg" alt="">
-                <div class="upcoming-section-description-wrapper">
-                    <img class="upcoming-section-avatar" src="img/upcoming-creators/avatar/photo1.jpg" alt="">
-                    <div class="upcoming-section-nick-wrapper">
-                        <div class="upcoming-section-nick">John Wick</div>
-                        <div class="upcoming-section-nick-img"></div>
-                    </div>
-                    <div class="upcoming-section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </div>
-                    <a class="upcoming-section-button" href="">+ Follow</a>
-                </div>
-            </div>
-
-            <div class="upcoming-section-card-wrapper">
-                <img class="upcoming-section-img" src="img/upcoming-creators/image2.jpg" alt="">
-                <div class="upcoming-section-description-wrapper">
-                    <img class="upcoming-section-avatar" src="img/upcoming-creators/avatar/photo2.jpg" alt="">
-                    <div class="upcoming-section-nick-wrapper">
-                        <div class="upcoming-section-nick">John Wick</div>
-                        <div class="upcoming-section-nick-img"></div>
-                    </div>
-                    <div class="upcoming-section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </div>
-                    <a class="upcoming-section-button" href="">+ Follow</a>
-                </div>
-            </div>
-
-            <div class="upcoming-section-card-wrapper">
-                <img class="upcoming-section-img" src="img/upcoming-creators/image3.jpg" alt="">
-                <div class="upcoming-section-description-wrapper">
-                    <img class="upcoming-section-avatar" src="img/upcoming-creators/avatar/photo3.jpg" alt="">
-                    <div class="upcoming-section-nick-wrapper">
-                        <div class="upcoming-section-nick">John Wick</div>
-                        <div class="upcoming-section-nick-img"></div>
-                    </div>
-                    <div class="upcoming-section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </div>
-                    <a class="upcoming-section-button" href="">+ Follow</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="upcoming-section">
-        <div class="trending-section-header">
-            <div class="trending-header">Upcoming Brands</div>
-            <div class="trending-description">Lorem ipsum dolor sit amet, copnsectetur <br> adipsicing elit.</div>
-        </div>
-
-        <div class="upcoming-section-body">
-            <div class="upcoming-section-card-wrapper">
-                <img class="upcoming-section-img" src="img/upcoming-brands/image1.jpg" alt="">
-                <div class="upcoming-section-description-wrapper">
-                    <img class="upcoming-section-avatar" src="img/upcoming-brands/avatar/photo1.jpg" alt="">
-                    <div class="upcoming-section-nick-wrapper">
-                        <div class="upcoming-section-nick">Adiddas</div>
-                        <div class="upcoming-section-nick-img"></div>
-                    </div>
-                    <div class="upcoming-section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </div>
-                    <a class="upcoming-section-button" href="">+ Follow</a>
-                </div>
-            </div>
-
-            <div class="upcoming-section-card-wrapper">
-                <img class="upcoming-section-img" src="img/upcoming-brands/image2.jpg" alt="">
-                <div class="upcoming-section-description-wrapper">
-                    <img class="upcoming-section-avatar" src="img/upcoming-brands/avatar/photo2.jpg" alt="">
-                    <div class="upcoming-section-nick-wrapper">
-                        <div class="upcoming-section-nick">Nike</div>
-                        <div class="upcoming-section-nick-img"></div>
-                    </div>
-                    <div class="upcoming-section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </div>
-                    <a class="upcoming-section-button" href="">+ Follow</a>
-                </div>
-            </div>
-
-            <div class="upcoming-section-card-wrapper">
-                <img class="upcoming-section-img" src="img/upcoming-brands/image3.jpg" alt="">
-                <div class="upcoming-section-description-wrapper">
-                    <img class="upcoming-section-avatar" src="img/upcoming-brands/avatar/photo3.jpg" alt="">
-                    <div class="upcoming-section-nick-wrapper">
-                        <div class="upcoming-section-nick">Lacoste</div>
-                        <div class="upcoming-section-nick-img"></div>
-                    </div>
-                    <div class="upcoming-section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </div>
-                    <a class="upcoming-section-button" href="">+ Follow</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="freaquently-question-section">
-        <div class="freaquently-section-header-wrapper">
-            <div class="freaquently-section-header">Freauently Asked <br> Question</div>
-            <div class="freaquently-section-header-asked">Wanna Ask Something?</div>
-        </div>
-        <div class="freaquently-section-body-wrapper">
-            <div class="freaquently-section-body-card-wrapper">
-                <form class="form-question">
-                    <label>
-                        <input class="question-input" type="text" placeholder="Lorem ipsum ipsum?">
-                    </label>
-                    <button class="question-button" type="submit">+</button>
-                </form>
-            </div>
-            <div class="freaquently-section-body-card-wrapper">
-                <form class="form-question">
-                    <label>
-                        <input class="question-input" type="text" placeholder="Lorem ipsum ipsum?">
-                    </label>
-                    <button class="question-button" type="submit">+</button>
-                </form>
-            </div>
-            <div class="freaquently-section-body-card-wrapper">
-                <form class="form-question">
-                    <label>
-                        <input class="question-input" type="text" placeholder="Lorem ipsum ipsum?">
-                    </label>
-                    <button class="question-button" type="submit">+</button>
-                </form>
-            </div>
-            <div class="freaquently-section-body-card-wrapper">
-                <form class="form-question">
-                    <label>
-                        <input class="question-input" type="text" placeholder="Lorem ipsum ipsum?">
-                    </label>
-                    <button class="question-button" type="submit">+</button>
-                </form>
-            </div>
-            <div class="freaquently-section-body-card-wrapper">
-                <form class="form-question">
-                    <label>
-                        <input class="question-input" type="text" placeholder="Lorem ipsum ipsum?">
-                    </label>
-                    <button class="question-button" type="submit">+</button>
-                </form>
-            </div>
-            <div class="freaquently-section-body-card-wrapper">
-                <form class="form-question">
-                    <label>
-                        <input class="question-input" type="text" placeholder="Lorem ipsum ipsum?">
-                    </label>
-                    <button class="question-button" type="submit">+</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    <section class="highest-quality-section">
-        <div class="highest-quality-wrapper">
-            <div class="highest-quality-header">Highest Quality <br> Collection</div>
-            <a class="highest-quality-button" href="">Get Started</a>
-        </div>
-    </section>
+    </footer>
+</section>
+    </div>
 </div>
 </body>
 <script src="js/app.min.js"></script>
